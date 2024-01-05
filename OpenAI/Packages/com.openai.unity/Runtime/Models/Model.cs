@@ -102,6 +102,7 @@ namespace OpenAI.Models
         /// Will be updated with our latest model iteration.
         /// </summary>
         public static Model GPT4 { get; } = new("gpt-4", "openai");
+        public static Model GPT4_Turbo { get; } = new("gpt-4-turbo", "openai");
 
         /// <summary>
         /// Same capabilities as the base gpt-4 mode but with 4x the context length.
